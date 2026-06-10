@@ -1,0 +1,38 @@
+.livraria-header {
+  background-color: #ffffff;
+  padding: 25px 20px;
+  text-align: center;
+  border-bottom: 2px solid #f4f1ea;
+}
+
+.livraria-logo h1 {
+  font-size: 32px;
+  color: #2c3e50;
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+.livraria-logo h1 span {
+  color: #8e24aa; /* Um tom de roxo/vinho elegante para o tema cristão */
+}
+
+.livraria-logo p {
+  margin: 5px 0 20px 0;
+  font-size: 13px;
+  color: #7f8c8d;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.livraria-nav a {
+  text-decoration: none;
+  color: #34495e;
+  font-weight: 600;
+  margin: 0 20px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.livraria-nav a:hover {
+  color: #8e24aa;
+}
