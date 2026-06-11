@@ -1,0 +1,115 @@
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Estilo do Banner */
+.banner {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
+  padding: 60px 40px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.cupom {
+  background-color: #ff9f43;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn-banner {
+  background-color: white;
+  color: #2575fc;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.btn-banner:hover {
+  transform: scale(1.05);
+}
+
+/* Grid de Livros */
+.destaques h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.livros-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+/* Card do Livro */
+.livro-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.livro-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.livro-img {
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.livro-card h3 {
+  font-size: 1.1rem;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+.livro-autor {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.livro-preco {
+  color: #2575fc;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.btn-comprar {
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btn-comprar:hover {
+  background-color: #1a5bca;
+}
+    

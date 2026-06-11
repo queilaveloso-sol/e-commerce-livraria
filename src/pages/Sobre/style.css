@@ -1,0 +1,49 @@
+.lista-itens-detalhada {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item-linha {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  color: #444;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-left: 3px solid #2575fc;
+}
+
+.item-titulo {
+  font-weight: 500;
+}
+
+.valores-finais {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.valores-finais p {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  color: #666;
+}
+
+.total-destaque {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #2e7d32 !important;
+  margin-top: 10px !important;
+  border-top: 1px dashed #ccc;
+  padding-top: 10px;
+}
+
+.carrinho-vazio {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+}

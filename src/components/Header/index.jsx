@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './style.css';
 
-function Header() {
+function Header({ quantidadeCarrinho }) {
   return (
     <header className="livraria-header">
       <div className="livraria-logo">
@@ -12,6 +12,11 @@ function Header() {
         <Link to="/">Início</Link>
         <Link to="/produtos">Bíblias e Livros</Link>
         <Link to="/sobre">Sobre & Contato</Link>
+        
+        {/* Mostra um texto simples para garantir que funciona */}
+        <span style={{ marginLeft: '20px', fontWeight: 'bold', color: '#ff4d4d' }}>
+          🛒 Carrinho: {quantidadeCarrinho || 0}
+        </span>
       </nav>
     </header>
   );
